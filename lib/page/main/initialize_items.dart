@@ -11,8 +11,9 @@ List<BottomNavigationBarItem> items = [
 ];
 
 List<Widget> pages = [
+  MyInfo(),
   HomePage(),
   PicturePage(),
-  MyInfo(),
+
 
 ];

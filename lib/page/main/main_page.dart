@@ -23,10 +23,12 @@ class _MainPageState extends State<MainPage> {
         // ),
         bottomNavigationBar: BottomNavigationBar(
           items: items,
+          selectedFontSize: 14,
+          unselectedFontSize: 14,
           currentIndex: _currentIndex,
           onTap: (index) {
             setState(() {
-              _currentIndex = index;
+              index = _currentIndex;
             });
           },
         ),

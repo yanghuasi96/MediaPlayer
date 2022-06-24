@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
       ),
       routes: MainRouter.mainRouters,
       initialRoute: MainRouter.initialRoute,
+      onGenerateRoute: MainRouter.generateRoute,
+      onUnknownRoute: MainRouter.unknownRoute,
     );
   }
 }

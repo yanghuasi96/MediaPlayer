@@ -18,7 +18,7 @@ class _PicturePageState extends State<PicturePage> {
     return Scaffold(
         body: Center(
       child: GridView(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: 8,
             mainAxisSpacing: 8,

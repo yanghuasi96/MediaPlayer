@@ -19,24 +19,13 @@ class MainRouter{
     // AmiHomePage.routeName: (ctx) => AmiHomePage(),
   };
 
-  static final String initialRoute = MainPage.routeName;
+  static const String initialRoute = MainPage.routeName;
 
-  // static final RouteFactory generateRoute = (settings) {
-  //   if (settings.name == HYDetailPage.routeName) {
-  //     return MaterialPageRoute(
-  //         builder: (ctx) {
-  //           return HYDetailPage(settings.arguments);
-  //         }
-  //     );
-  //   }
-  //   return null;
-  // };
-  //
-  // static final RouteFactory unknownRoute = (settings) {
-  //   return MaterialPageRoute(
-  //       builder: (ctx) {
-  //         return HYUnknownPage();
-  //       }
-  //   );
-  // };
+  static final RouteFactory generateRoute = (settings) {
+    return null;
+  };
+
+  static final RouteFactory unknownRoute = (settings) {
+    return null;
+  };
 }
