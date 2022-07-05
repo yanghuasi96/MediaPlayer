@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/page/collection/collections.dart';
 import 'package:untitled/page/home/home_page.dart';
+import 'package:untitled/page/movie/movie_player.dart';
 import 'package:untitled/page/my/my_info.dart';
 import 'package:untitled/page/picture/picture_page.dart';
 
@@ -16,6 +18,8 @@ class MainRouter{
     PicturePage.routeName: (ctx) => PicturePage(),
     MyInfo.routeName: (ctx) => MyInfo(),
     MovieDetail.routeName: (ctx) => MovieDetail(),
+    Collections.routeName: (ctx) => Collections(),
+    VideoScreen.routeName: (ctx) => VideoScreen(),
     // AmiHomePage.routeName: (ctx) => AmiHomePage(),
   };
 

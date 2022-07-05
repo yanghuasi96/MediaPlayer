@@ -28,7 +28,7 @@ class _MainPageState extends State<MainPage> {
           currentIndex: _currentIndex,
           onTap: (index) {
             setState(() {
-              index = _currentIndex;
+              _currentIndex = index;
             });
           },
         ),

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/model/collection_moel.dart';
 
 import 'image_detail.dart';
 
@@ -30,7 +31,7 @@ class _PicturePageState extends State<PicturePage> {
                 Navigator.of(context)
                     .push(PageRouteBuilder(pageBuilder: (ctx, anim1, anim2) {
                   return FadeTransition(
-                      opacity: anim1, child: ImageDetailPage(imageURL));
+                      opacity: anim1, child: ImageDetailPage(CollectionsItem('','',imageURL,false)));
                 }));
               },
               child: Hero(

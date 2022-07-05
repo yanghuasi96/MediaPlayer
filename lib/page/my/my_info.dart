@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/page/collection/collections.dart';
+import 'package:untitled/page/movie/movie_player.dart';
+import 'package:untitled/router/routers.dart';
 
 class MyInfo extends StatefulWidget {
   static const String routeName = '/info';
@@ -108,7 +111,8 @@ class _InfoItemState extends State<_infoItem> {
       contentPadding: EdgeInsets.all(10),
       enabled: true,
       onTap: () {
-        // ToastUtil.showToast('onTap');
+        // Navigator.of(context).pushNamed(Collections.routeName);
+        Navigator.of(context).pushNamed(VideoScreen.routeName);
       },
       onLongPress: () {
         // ToastUtil.showToast('onLongPress');

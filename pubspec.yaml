@@ -39,6 +39,9 @@ dependencies:
   provider: ^6.0.3
   event_bus: ^2.0.0
   dio: ^4.0.6
+#  fijkplayer: ^0.10.1
+#  pod_player: ^0.0.7
+  url_launcher: ^6.1.4
 permission_handler: ^4.3.0
 #  permission_handler: ^9.2.0
 #  permission_handler_platform_interface: ^3.7.0
@@ -63,6 +66,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
